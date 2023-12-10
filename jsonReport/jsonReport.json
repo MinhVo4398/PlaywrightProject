@@ -66,7 +66,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "",
+          "title": "Interaction with inputs",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,28 +80,99 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4418,
+                  "duration": 7426,
                   "errors": [],
                   "stdout": [
                     {
                       "text": "Please enter your Message\n"
                     },
                     {
-                      "text": "\n"
+                      "text": "Before entering data: \n"
+                    },
+                    {
+                      "text": "After entering data: Hi Minh\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-12-10T09:53:24.278Z",
+                  "startTime": "2023-12-10T12:33:15.176Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "955916e1d65aa80ba13f-7b5e99ee68ae09710225",
+          "id": "955916e1d65aa80ba13f-ee60cf32ca7134339ce4",
           "file": "tests/basicinteraction.test.ts",
           "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Sum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1453,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "577\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-10T12:33:22.762Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "955916e1d65aa80ba13f-9e25a06decd90eccf93e",
+          "file": "tests/basicinteraction.test.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "Checkbox",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6363,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-10T12:33:24.217Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "955916e1d65aa80ba13f-ae139afeec4b15d35b07",
+          "file": "tests/basicinteraction.test.ts",
+          "line": 33,
           "column": 5
         }
       ]
@@ -109,9 +180,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-12-10T09:53:23.795Z",
-    "duration": 5249.1759999999995,
-    "expected": 1,
+    "startTime": "2023-12-10T12:33:14.759Z",
+    "duration": 15991.034,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
