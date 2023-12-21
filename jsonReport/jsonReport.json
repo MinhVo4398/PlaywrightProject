@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "d:\\PlaywrightProject\\playwright.config.ts",
-    "rootDir": "d:/PlaywrightProject",
+    "configFile": "D:\\PlaywrightProject\\playwright.config.ts",
+    "rootDir": "D:/PlaywrightProject",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -39,12 +39,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "d:/PlaywrightProject/test-results",
+        "outputDir": "D:/PlaywrightProject/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "d:/PlaywrightProject",
+        "testDir": "D:/PlaywrightProject",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -55,18 +55,18 @@
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.40.1",
-    "workers": 8,
+    "workers": 6,
     "webServer": null
   },
   "suites": [
     {
-      "title": "tests\\alert.test.ts",
-      "file": "tests/alert.test.ts",
+      "title": "tests\\frame.test.ts",
+      "file": "tests/frame.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "handling alerts",
+          "title": "Interacting with frames",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,24 +80,24 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1478,
+                  "duration": 5205,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "I am an alert box!\n"
+                      "text": "No.of frames: 14\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-12-10T13:16:55.382Z",
+                  "startTime": "2023-12-21T08:57:24.872Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "a580f849d5424efee28a-1fac382b0e5c6b9a48e5",
-          "file": "tests/alert.test.ts",
+          "id": "fff2b3a5756d8dacc7f1-d876fcfc239c1b790247",
+          "file": "tests/frame.test.ts",
           "line": 3,
           "column": 5
         }
@@ -106,8 +106,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-12-10T13:16:54.839Z",
-    "duration": 2452.649,
+    "startTime": "2023-12-21T08:57:24.433Z",
+    "duration": 6172.656,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
