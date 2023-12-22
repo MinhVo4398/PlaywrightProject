@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\PlaywrightProject\\playwright.config.ts",
-    "rootDir": "D:/PlaywrightProject",
+    "configFile": "d:\\PlaywrightProject\\playwright.config.ts",
+    "rootDir": "d:/PlaywrightProject",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -39,12 +39,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "D:/PlaywrightProject/test-results",
+        "outputDir": "d:/PlaywrightProject/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "D:/PlaywrightProject",
+        "testDir": "d:/PlaywrightProject",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -80,16 +80,16 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5205,
+                  "duration": 7770,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "No.of frames: 14\n"
+                      "text": "No.of frames: 17\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-12-21T08:57:24.872Z",
+                  "startTime": "2023-12-22T03:18:29.376Z",
                   "attachments": []
                 }
               ],
@@ -106,8 +106,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-12-21T08:57:24.433Z",
-    "duration": 6172.656,
+    "startTime": "2023-12-22T03:18:28.869Z",
+    "duration": 9136.08,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
